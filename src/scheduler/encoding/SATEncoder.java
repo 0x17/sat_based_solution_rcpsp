@@ -427,7 +427,7 @@ public class SATEncoder {
 			List<Activity> activities, List<Resource> resources)
 			throws ContradictionException {
 		for (int time = 0; time < maxTime; time++) {
-			// Wenn die Aktivität zum Zeitpunkt t läuft dann konsumiert sie ihre
+			// Wenn die AktivitÃ¤t zum Zeitpunkt t lÃ¤uft dann konsumiert sie ihre
 			// Resourcen
 			for (Activity activity : activities) {
 				List<Integer> consumVariablesForActivityAtInstant = getConsumeVariablesForActivityAtInstant(
